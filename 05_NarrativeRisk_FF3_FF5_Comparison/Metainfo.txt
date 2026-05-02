@@ -1,0 +1,19 @@
+Name of Quantlet: 05_NarrativeRisk_FF3_FF5_Comparison
+
+Published in: 'AMLEF Applied Machine Learning in Empirical Finance'
+
+Description: 'Comparison of FF3 vs FF5+UMD risk-adjusted alpha for an LLM-extracted narrative tercile spread. Same composite signal (mean severity across 10 themes), same tercile sort, same EW T3-T1 spread as quantlet 01; axis exercised is the choice of risk-adjustment basis. Indicative not inferential at N=30 firms.'
+
+Keywords: educational, llm, risk-disclosure, ff3, ff5, factor-comparison, risk-adjustment, alpha, empirical-finance, demonstration
+
+Author: Dennis Hoffmann
+
+Submitted: '02 May 2026'
+
+See also: '01_NarrativeRisk_LLM_DisclosureScoring'
+
+Datafile: corpus.ndjson.gz, provenance.json, prices.csv, ff_factors.csv, extraction_prompt.md
+
+Input: 'frozen LLM-extracted risk severities (corpus.ndjson.gz) + monthly prices + FF5+UMD factors'
+
+Output: 'ff3_ff5_alpha_summary.csv (1 row x 6 cols), ff3_ff5_alpha_comparison.pdf (bar chart), 05_NarrativeRisk_FF3_FF5_Comparison.ipynb (executable walkthrough)'

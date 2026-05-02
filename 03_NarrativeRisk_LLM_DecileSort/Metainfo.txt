@@ -1,0 +1,19 @@
+Name of Quantlet: 03_NarrativeRisk_LLM_DecileSort
+
+Published in: 'AMLEF Applied Machine Learning in Empirical Finance'
+
+Description: 'Same data and signal as quantlet 01 but uses 10 portfolio bins (decile sort) instead of 3 (tercile). Demonstrates the methodological choice of granularity in cross-sectional sorting. With only 3 firms per decile leg in a top-30 universe, idiosyncratic variance dominates. Indicative not inferential.'
+
+Keywords: educational, llm, risk-disclosure, decile-sort, fama-french, ff5, alpha, cross-sectional-sort, granularity, empirical-finance, demonstration
+
+Author: Dennis Hoffmann
+
+Submitted: '02 May 2026'
+
+See also: '01_NarrativeRisk_LLM_DisclosureScoring'
+
+Datafile: corpus.ndjson.gz, provenance.json, prices.csv, ff_factors.csv, extraction_prompt.md
+
+Input: 'frozen LLM-extracted risk severities (corpus.ndjson.gz) + monthly prices + FF5+UMD factors'
+
+Output: 'decile_spread_summary.csv (1 row x 7 cols), decile_spread.pdf (one figure), 03_NarrativeRisk_LLM_DecileSort.ipynb (executable walkthrough)'

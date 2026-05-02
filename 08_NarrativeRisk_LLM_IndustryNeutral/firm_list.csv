@@ -1,0 +1,31 @@
+ticker,company,cik,sector,available_from,still_in_sp500_2024
+AAPL,Apple Inc.,0000320193,Information Technology,2015-01-01,TRUE
+XOM,Exxon Mobil Corporation,0000034088,Energy,2015-01-01,TRUE
+MSFT,Microsoft Corporation,0000789019,Information Technology,2015-01-01,TRUE
+BRK.B,Berkshire Hathaway Inc.,0001067983,Financials,2015-01-01,TRUE
+GOOGL,Alphabet Inc.,0001652044,Communication Services,2015-01-01,TRUE
+JNJ,Johnson & Johnson,0000200406,Health Care,2015-01-01,TRUE
+WFC,Wells Fargo & Company,0000072971,Financials,2015-01-01,TRUE
+WMT,Walmart Inc.,0000104169,Consumer Staples,2015-01-01,TRUE
+GE,General Electric Company,0000040545,Industrials,2015-01-01,TRUE
+PG,Procter & Gamble Company,0000080424,Consumer Staples,2015-01-01,TRUE
+JPM,JPMorgan Chase & Co.,0000019617,Financials,2015-01-01,TRUE
+META,"Meta Platforms, Inc.",0001326801,Communication Services,2015-01-01,TRUE
+CVX,Chevron Corporation,0000093410,Energy,2015-01-01,TRUE
+ORCL,Oracle Corporation,0001341439,Information Technology,2015-01-01,TRUE
+PFE,Pfizer Inc.,0000078003,Health Care,2015-01-01,TRUE
+VZ,Verizon Communications Inc.,0000732712,Communication Services,2015-01-01,TRUE
+BAC,Bank of America Corporation,0000070858,Financials,2015-01-01,TRUE
+KO,The Coca-Cola Company,0000021344,Consumer Staples,2015-01-01,TRUE
+INTC,Intel Corporation,0000050863,Information Technology,2015-01-01,TRUE
+T,AT&T Inc.,0000732717,Communication Services,2015-01-01,TRUE
+C,Citigroup Inc.,0000831001,Financials,2015-01-01,TRUE
+V,Visa Inc.,0001403161,Information Technology,2015-01-01,TRUE
+MRK,"Merck & Co., Inc.",0000310158,Health Care,2015-01-01,TRUE
+DIS,The Walt Disney Company,0001744489,Communication Services,2015-01-01,TRUE
+IBM,International Business Machines,0000051143,Information Technology,2015-01-01,TRUE
+CMCSA,Comcast Corporation,0001166691,Communication Services,2015-01-01,TRUE
+GILD,"Gilead Sciences, Inc.",0000882095,Health Care,2015-01-01,TRUE
+HD,"The Home Depot, Inc.",0000354950,Consumer Discretionary,2015-01-01,TRUE
+CSCO,"Cisco Systems, Inc.",0000858877,Information Technology,2015-01-01,TRUE
+MO,"Altria Group, Inc.",0000764180,Consumer Staples,2015-01-01,TRUE

@@ -1,0 +1,19 @@
+Name of Quantlet: 09_NarrativeRisk_LLM_RollingBeta
+
+Published in: 'AMLEF Applied Machine Learning in Empirical Finance'
+
+Description: 'Demonstration of rolling 36-month FF5+UMD beta estimation on the LLM risk-disclosure tercile spread; shows time-variation in factor loadings and rolling alpha through time. Not intended as evidence. Illustrative cross-sector pick of 30 large-caps (S&P 500 top-30 snapshot 2014-12-31), 2015-2024, 10 hand-listed risk themes, severity 0-5; same composite signal and EW T3-T1 spread as quantlet 01 but with rolling OLS (HC1 robust SE) over a 36-month trailing window.'
+
+Keywords: educational, llm, risk-disclosure, rolling-regression, time-varying-beta, ff5, alpha, empirical-finance, demonstration
+
+Author: Dennis Hoffmann
+
+Submitted: '02 May 2026'
+
+See also: '01_NarrativeRisk_LLM_DisclosureScoring'
+
+Datafile: corpus.ndjson.gz, provenance.json, prices.csv, ff_factors.csv, extraction_prompt.md
+
+Input: 'frozen LLM-extracted risk severities (corpus.ndjson.gz) + monthly prices + FF5+UMD factors'
+
+Output: 'rolling_beta_summary.csv (N_windows rows x 10 cols), rolling_beta.pdf (two stacked subplots), 09_NarrativeRisk_LLM_RollingBeta.ipynb (executable walkthrough)'

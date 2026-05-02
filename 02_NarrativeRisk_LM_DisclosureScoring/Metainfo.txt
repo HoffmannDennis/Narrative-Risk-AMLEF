@@ -1,0 +1,19 @@
+Name of Quantlet: 02_NarrativeRisk_LM_DisclosureScoring
+
+Published in: 'AMLEF Applied Machine Learning in Empirical Finance'
+
+Description: 'Same pipeline as quantlet 01 but using the Loughran-McDonald (2011) finance dictionary deterministic word counts instead of LLM severity scoring. Designed to be read side-by-side with quantlet 01 to contrast dictionary and LLM signals; no joint computation runs in either notebook. Not intended as evidence.'
+
+Keywords: educational, lm-dictionary, loughran-mcdonald, dictionary-baseline, risk-disclosure, tercile-sort, fama-french, ff5, alpha, factor-model, empirical-finance, demonstration
+
+Author: Dennis Hoffmann
+
+Submitted: '02 May 2026'
+
+See also: '01_NarrativeRisk_LLM_DisclosureScoring'
+
+Datafile: corpus.ndjson.gz, all_texts_v2.json.gz, prices.csv, ff_factors.csv, lm_dictionary.csv, extraction_prompt.md
+
+Input: 'cached Item 1A texts (all_texts_v2.json.gz) + Loughran-McDonald dictionary (lm_dictionary.csv) + monthly prices + FF5+UMD factors'
+
+Output: 'lm_tercile_spread_summary.csv (1 row x 7 cols), lm_tercile_spread.pdf (one figure), 02_NarrativeRisk_LM_DisclosureScoring.ipynb (executable walkthrough)'

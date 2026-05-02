@@ -1,0 +1,19 @@
+Name of Quantlet: 06_NarrativeRisk_LLM_SeverityDistribution
+
+Published in: 'AMLEF Applied Machine Learning in Empirical Finance'
+
+Description: 'Inspection-only quantlet: no portfolio formation. Plots histograms and heatmaps of the 30x10x10 severity panel (30 firms x 10 fiscal years x 10 risk themes, severity 0-5) by year, GICS sector, and theme. Surfaces dataset structure so the underlying signal distribution can be inspected before consuming derived statistics produced by the portfolio-formation quantlets.'
+
+Keywords: educational, llm, risk-disclosure, exploratory-data-analysis, severity-distribution, corpus-inspection, heatmap, empirical-finance, demonstration
+
+Author: Dennis Hoffmann
+
+Submitted: '02 May 2026'
+
+See also: '01_NarrativeRisk_LLM_DisclosureScoring'
+
+Datafile: corpus.ndjson.gz, provenance.json, firm_list.csv, extraction_prompt.md
+
+Input: 'frozen LLM-extracted risk severities (corpus.ndjson.gz) + GICS sector mapping (firm_list.csv)'
+
+Output: 'severity_distribution_summary.csv (10 rows x 5 cols — one row per theme), severity_distribution.pdf (2x2 figure grid), severity_distribution.png (raster sidecar), 06_NarrativeRisk_LLM_SeverityDistribution.ipynb (executable walkthrough)'

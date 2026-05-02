@@ -1,0 +1,19 @@
+Name of Quantlet: 10_NarrativeRisk_LLM_LongOnly
+
+Published in: 'AMLEF Applied Machine Learning in Empirical Finance'
+
+Description: 'Demonstration of long-only T3 (high-severity) portfolio constructed from LLM-extracted risk-disclosure severities, dropping the T1 short leg. Reports FF5+UMD risk-adjusted alpha with HC1 robust standard errors. Contrasts against quantlet 01 long-short spread to highlight the practitioner reality of long-only institutional mandates. Indicative not inferential; not intended as evidence.'
+
+Keywords: educational, llm, risk-disclosure, long-only, no-short, t3-portfolio, ff5, alpha, empirical-finance, demonstration
+
+Author: Dennis Hoffmann
+
+Submitted: '02 May 2026'
+
+See also: '01_NarrativeRisk_LLM_DisclosureScoring'
+
+Datafile: corpus.ndjson.gz, provenance.json, prices.csv, ff_factors.csv, extraction_prompt.md
+
+Input: 'frozen LLM-extracted risk severities (corpus.ndjson.gz) + monthly prices + FF5+UMD factors'
+
+Output: 'long_only_summary.csv (1 row x 7 cols), long_only.pdf (one figure), 10_NarrativeRisk_LLM_LongOnly.ipynb (executable walkthrough)'

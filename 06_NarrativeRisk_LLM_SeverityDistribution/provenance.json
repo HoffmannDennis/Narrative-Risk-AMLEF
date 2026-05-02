@@ -1,0 +1,3017 @@
+{
+  "corpus_provenance": {
+    "build_path": "path_b_orchestrator_inline_llm_judgement",
+    "built_at_iso": "2026-05-01T14:07:30.173421Z",
+    "extraction_notes": "Path B inline judgement via 6 parallel Sonnet 4.6 subagents (batches of 50 filings each). Item 1A texts pre-extracted by build_corpus_v2.py from cached EDGAR HTML; some firms (CSCO, V, WFC, XOM, WMT, MO, MRK) had partial Item 1A coverage where the extractor pulled MD&A/exhibit content instead \u2014 those filings were honestly scored at low severity reflecting the captured text. See per-batch agent reports for details.",
+    "gap_log": [],
+    "model_snapshot": "claude-sonnet-4-6",
+    "n_filings": 300,
+    "n_firms": 30,
+    "n_years": 10,
+    "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+    "prompt_version": "1.0.0",
+    "schema_version": "v2-slim"
+  },
+  "filings": {
+    "AAPL_2015": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "5b71f2bb7bbad03db389ede8c28e167f7a159f434ba499a4841b8b9e50c475a0",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "928a209eed2dc20da02ef3752de00f4e1310750705fb4d13a803697a51478497"
+    },
+    "AAPL_2016": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "1d6c2b77582f5ac685024810725deb944f13fe093df065612fd66b0cac02738b",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "3aa72bcbb0f75630fc1da8f9564e1f549f522bf6c6f37392f1cd9ca57df68bcf"
+    },
+    "AAPL_2017": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "dca2bc87bac71991e63aefbe6e5bd0ca22f1434a8715e1438163941506236809",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "ad69b6b7b1f075f433d40ccaf051c872a13a14395ed92c9da877a1085398a3cc"
+    },
+    "AAPL_2018": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "919d30910f2c8a10bda5ed81389292f21b72bddece54a98caf7e1195d900f457",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "90ab8ca0ef21d0b41e994272694b318dfd23d5b5ff0df523cc01e8c70de771c1"
+    },
+    "AAPL_2019": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "ec5e7d31d63f0058c4ba7673fc74cf3e66786bc616d9edf8ca587f7e48c19324",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "cfef8c99338498ddd0974c310f54035d8f31825f589016b1348292031eadb180"
+    },
+    "AAPL_2020": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "9011a700777384635b52eb0137079965a144858054e90a90cfc32654a10398c9",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "c288f2f6befc2cea21ec88b49f544a1a8a976e30dab84ce018e8e476413fdaf7"
+    },
+    "AAPL_2021": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "0e2e21a3d4e4ee7d7baf148f77908a19252da1910f9433f65ecff326b1059b46",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "4bbb761a563b634b5fdde2de2c53a1be5d553b78f8f64c2c813aebe76fa08ee1"
+    },
+    "AAPL_2022": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "d8fa5a72bc997155a489e2acbad5d16fa2450f612f9aac147cb6912cb68c1f7a",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "2c1ba7354b811f4a3ed42b0c8270eadd08bf9d504fc197e3e4e46fec0195c40c"
+    },
+    "AAPL_2023": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "ad4d22ce29de6f94ea0f7435b8420b636bb3d50b79219e598ba0509887268d00",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "1be0e922109d01c8a7ff34eb4d7413c0cb36592f92a021c75787641505de3e8e"
+    },
+    "AAPL_2024": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "5289d174651d7a610fb793a565940fa8a13808d1e884016842b1609f550491df",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "80187ad7618e964a6fb8bbda8c691d8d0557251c312555c92736dabda01fabd9"
+    },
+    "BAC_2015": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "1b8fff7ec9d98b5cbbef00d939e1e0a3fe3c7a9354fdab5b8743e5fb085a19fd",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "b5dd85770bd18b5be114033565c1456f0b4ef062689ba88cb01a1b8dbc5bd7e8"
+    },
+    "BAC_2016": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "d586c706a3e90be87fd79648fa2547d38d25ef01394ace615d57da176a47361b",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "1b6a2763f1c72054dc6be37f9d1e5ea71374296d5f341d165f266b7ae5945f19"
+    },
+    "BAC_2017": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "18c40361c6f553cc310c8bbf8ed7583919dc9761d6555584bf136e7bc6071154",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "3f9661f31f7d5686828ef64a34ad08732eaab19899f914bbf0459e9f93110540"
+    },
+    "BAC_2018": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "bc4929d8f9865aadaa807b86255d1a70578fb4539bb80c6126add33e74a794a4",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "ab044f0c3a2c7513aab9d2d97d1a379cde4567236273f312215d2dff776cad9d"
+    },
+    "BAC_2019": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "3652267be8abc340a2d31e408362edc93395a8e9ec7d57d86828e034e6445254",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "fe491c090b1d5c3b47f2400b52baf0deb9d981b680ee39f711ae657003160ae0"
+    },
+    "BAC_2020": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "4e30d6b590e4770539539e80ac6407525dd96fb0bd9be1b96019109e7e14a966",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "77eb81772c53b5759924a786adcac3e44a7eff0c9195c337f2f3d76cd0476b86"
+    },
+    "BAC_2021": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "296fbebe7ada0ea5b7f1bbab899d1850352b6b372dc956789283b457673c29f6",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "9f6e7e38d8d89c735804799b6a82fa13385fd70fb6adecee2caeba265ceff61a"
+    },
+    "BAC_2022": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "b19a6eec26a772a2518ff2a4b3b959b527daa2b6251a83ddf20c47f888788dfe",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "c5b0055952d7f9ccfb6eed913f93b3cf6e4a8652ecbd6416cb92c74c9288f959"
+    },
+    "BAC_2023": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "94404cdf2d524428f9b58b0735bf4a8082b6f458600341569cc14e884e79ff69",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "055349a092b0e439b731e2f34c27a8a1ebb28de44b9b6eda5e59d5987d38edaf"
+    },
+    "BAC_2024": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "aca02b4530f578fa249683baf8357054e1abbcf01ccf1f68dbe5a723ae7ad7ff",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "14fc7cf13b30a7abd58fd01dccb87209b727231f1113680bfea4969a0da462cf"
+    },
+    "BRK.B_2015": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "37623762d6cbdf1ecf94e6a4b538d57746f08f44ac73b4fe0cbe28590eefea9a",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "5620237f807553024ea5b01449278cfd2fe0fbfab04af097a0b9489a6eb2c6d7"
+    },
+    "BRK.B_2016": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "483bde0af2692ffc2946babc624e730b720fa27431c4b19fbc514e800177fd24",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "1e55f7c769f21501f57662074ccdbb19f60f3584e6dee8e82a2a88f70432068b"
+    },
+    "BRK.B_2017": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "23cb0e51a0744ea58de6b572ee49634d14f5c8fdd0218edff15cd4729a5f7237",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "269b03ccb041c1ceb90c6d4abc351d73e20a795de58a8b1298a9d8556d96513d"
+    },
+    "BRK.B_2018": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "3d84b03e65a915f3b8c105f054005e7dde0efccddc3c3400ea437b4a57cde69d",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "c36eb2101f70a23b942245658e1d617b87e28ac6115063b17be7ef02f701a313"
+    },
+    "BRK.B_2019": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "65085b14bdd05962d231949d819f3f1fcbf1bd89f3314a5365b2174d9dd8e9ae",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "4c7efe3e1c2d0168b523ebbf4632bdfca5f271bca2cc504d8646cf22ce4b5738"
+    },
+    "BRK.B_2020": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "8ca13fce7d89f1520b36eb184fce16e0102cb0b98375c482873bae7da53364c1",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "029caca55b6f26a20cd063d5249229276240830f545e1d72ae71006e3908e1cc"
+    },
+    "BRK.B_2021": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "19f20adec5a6ae54e3e170adc9939c6296c8109b17d27060036e0e8dd24fab60",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "624dd3cabe5a1e18c95efd37e8c7c1a402a1a3aa3f781c1b4c7072cdbd085d18"
+    },
+    "BRK.B_2022": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "ff8c7fbcbb8cd53a20f37a0d881c8126175c0b80e0d5f6d17a41245b6916c310",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "e3211909941e430971c283240a144c20c1612606123d80c609ecccea49c75607"
+    },
+    "BRK.B_2023": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "62feaaea71831ea8074d1edfea494f742c4d6abe893d640fac0778387e596b6e",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "0b9ff0707216a45146982086c7aabb7b560a53a8a34c619b7e58f4bf42af6330"
+    },
+    "BRK.B_2024": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "6047e880d169aa76044228f0246f872e39741c8d7634e6159cfecd4697bc34bc",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "d5c083afdcc1ca9f62ed9280f0016fc2eff81dff38251a5ae0f4d7461be0db63"
+    },
+    "CMCSA_2015": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "e211cd3c233f7a2c6bd9ffc326521838c68b51bba3ba5e5099f6d4ff5d917519",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "5fbb31b5c29e2a2b8ecad3259e41e11436a9aa20893f15f5e5a0f97dbe3e71ea"
+    },
+    "CMCSA_2016": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "6143b573dc2f17c682dfa496c11c8c2576c187c0a8db87e39f6903584e6ba894",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "b81015176eabb61ba5e641a70812aaa15271e8fe4935e7235da0194afe43af74"
+    },
+    "CMCSA_2017": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "705bb2be24783aa0f1e5a0eaf05e05fb243aea7bf323b32e4241653daea5bb55",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "1ffcf6197b98ce568a5442db599a34ead40363360f181bf457d2a4ce933a76a5"
+    },
+    "CMCSA_2018": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "e22b29577acd493baea85a6ba87398aea6ad21c0e336d97365a3d09732f34dca",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "86fd0dde4b3bcd940c3282caeebc8283039e46aa1704f38fd69b47434740ed5f"
+    },
+    "CMCSA_2019": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "300211916c829866426a8ddf522513fc079580dcee7733026d8ee34fd212d54b",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "9c633e63b7799387ac20068fc45434314ca32a297e3ed775128b1b804aa2f4b9"
+    },
+    "CMCSA_2020": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "0ef604030288713dd1b68c9aff97775320650190ff37aaa7d56090432e071281",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "dbbaa08697e6eb2fc18c821cfba832a8d4b0890f3518efd704c769121ff9bfb4"
+    },
+    "CMCSA_2021": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "83857b8a1ab3d8acd6dcf73cd0ce43a2432be74d98688935b0f0fcb51bb09946",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "1a84f48a037a07bda90bd2fb37b16abf554d5611494386752ac964ff987e113a"
+    },
+    "CMCSA_2022": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "661f34178847fee518f1e257eff2f3e328778740661c9db8658a77aead004cf3",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "3b9c65ed32bae86375d03c81bd47ae7956e0b93c597a1d7d09902b577e4bc71a"
+    },
+    "CMCSA_2023": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "f6da7d920928d6e928d1cbd4ea949e1a399f12d60c4a7f389a85d28da9c81aaa",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "cb76501963960525506d3b9205c5a0f17da300dd8bf72eef61cd7533b6eb01fb"
+    },
+    "CMCSA_2024": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "dd04d3cdca3c67ae9210e6a0383324fedddb5241ecfac755fadb357c3130b173",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "592bd12ea5ebe7a05e24929c2d1568922b3b0a25bbf9e84b4ab94b5f19af47a9"
+    },
+    "CSCO_2015": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "31ea89f94e972818cec52a1897833c07a9dfba55813a2aab9ce3c21b540e5d26",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "c78f339b038cfaec61ca58db85715267fac87ca1b2aaa528d2688aaa484ae570"
+    },
+    "CSCO_2016": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "1536956c156f49723d62c71f4ecb3787cd132bbd2430938486e570d7ea3036a2",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "0916463f9b9be67092101771625af4a82e9a43464eb927ac37df3c29b09f332f"
+    },
+    "CSCO_2017": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "612f95d9c27d5b5c49e707c883ef7370687732823cf477be56b72482e4e9934d",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "a799af86ab132b3576aae5b2b39deaeb722798b7246b0fca6c2d2b20049af4b9"
+    },
+    "CSCO_2018": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "5f2bdbdb7b07f6a2f2852561616188184d267992b66acb5862341127cc9f31a7",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "4eb4f4c6feca23579a533fb780d9c48309017d1bc4720304076676fae454d3fc"
+    },
+    "CSCO_2019": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "bef8343bae6796d5714a2c2c9e555cc4d3e3be86468002913ea6e64221632115",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "3326b2bfadfe7d4d10a46ec7b204bbcf8a04b66d714960b4de28f24db1b359d5"
+    },
+    "CSCO_2020": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "e8b26cb0179c08674c9e29956826345f645a20dde578c379186d1701d62799cc",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "9e276f5a65214c1389f01b65e80ad6c4b498fa13f00f0c478dd5c7f6c1e93600"
+    },
+    "CSCO_2021": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "491db5111fabfed39d910078d3339e1164ebc6dfd69ddc4a15042289874c8202",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "ddac874e84086ec944722827023968935a3c7de8056e04b195da21b49a180020"
+    },
+    "CSCO_2022": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "b2ebcdedb1ec1655a7767d69663a9c26a9df8bdaff20d13488868d2b5b3a3e46",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "41b3f5ed260cfd226cda87bf10f5530bdde7e2f4d90cb00edee8706117392b5a"
+    },
+    "CSCO_2023": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "3c5ca2d96e5216e89317f4846ff2c9233c23e5d04c99b450afcc2f9dd8571b66",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "8189bab571b5ecb0e67f381c126436bbb8f5b18a026960263b1fc5340d87d118"
+    },
+    "CSCO_2024": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "0b16d1640b2b690020aef122fa9478a67ecbfb103ca1db76538ae8fa2a60be50",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "f9dea703f19d1a8aeeea6858da6e837ac5f53661806bff64b07a7ceb9de952c2"
+    },
+    "CVX_2015": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "9250ad068d5eae19c1c5f8acf157b1bf717645825976bac3c8d816ab6679b7f8",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "c73645ac3f3bc4371742df41b3c2cff225604583d43b6717e179c9bccd74eb93"
+    },
+    "CVX_2016": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "6464788775d47f703be4c593a07fda8d496196732ded91746cabcbb34a554225",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "281b4f6eb22589f8170df45531a80bdc7ddbdedbd37168430aeadd07ff406e66"
+    },
+    "CVX_2017": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "49039970f50c03fa7e04fbcedd4b72a0dcdd5b82755d37528f5357b3d650e1b7",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "cb914baf7ded6c451868eb2f7eaac9577b7a3b5b756bbc87eb340ae267154fc8"
+    },
+    "CVX_2018": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "dfbcf4b0a607b1332de982d25e3ada11f015a1c59d4ad3f75cebebfdcb3bca17",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "d2a90d60add0b175e458638359019eacf3cd1c88f1fca0f14c75ed49b90cbbf6"
+    },
+    "CVX_2019": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "fb9a9ee2c37f4332a910b1bf6a20234ee8d1c3762c24176e4e69ea02fcef407a",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "ed0b37084c55b9a046e5cbec01976edf244363859edd0438c25728e6c82cc9d4"
+    },
+    "CVX_2020": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "ebd67e514263b0c2dcba8ddb51e4baa2be0ad5aa78b26dee63b287a994687636",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "a87f3f50c2244ab7aef56303365d9654752060c2cd54cefd5d86a6f2d96eb908"
+    },
+    "CVX_2021": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "001cb9a4d920591b68418a8f7798b1ab5e6ea357734cffa51bc0355fc0c091cb",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "abad95554e6a0f77d2553f72dcd4e7117705653638e1948bd51a0fdbea49170a"
+    },
+    "CVX_2022": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "bff660bec73bb956b28fd9e11d229319a6c021962b917cd36d430ed8c10acaee",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "834b156fcba743008c83c40d08816b71384e2cd1a8481ae87da3a3a9e412ff1c"
+    },
+    "CVX_2023": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "425b183acc562779213e549bd1dd3197656cc89c4de4204662c3b919739d96d5",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "5183ff1d0d78cbd13bfa860e9450c0223484c9078c9fc0aebebebd54284afdf0"
+    },
+    "CVX_2024": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "0bca67542498a4840f1425e837873fe4e813b076fce1d74a25542a99e33ad077",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "7ba3156cc7601c35578ca752e8ba229f8696f1861f0b86f1fb84300e36d1f476"
+    },
+    "C_2015": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "f0dc02b18fba13c7dbd7a2f1ea40f97ad41fb028969e5a49c2950d5d31b3cf42",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "3dd79d0cfe2e0dd6b74a695849e55f51306b2d9a29855985d22959c050037aa1"
+    },
+    "C_2016": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "fbba653c83b509ccc029c1b1d1dac48fab62889a45aadc1f4a1ff1a23f0d677d",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "aaa94a85545236b513c8a60c7880cee728ad3163b963097f74c4fc6898ccab77"
+    },
+    "C_2017": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "a38f9524144fab2d5dd71800f8881a60af27b9beaef1d9613f642b1e0ed0cf51",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "53c3340277b24ff157bd2c766b19b5129c28478e6d05a1262c40fcd1713df1a3"
+    },
+    "C_2018": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "895f0737144d296fa6d3bce7988fb375e0b64db3b4d98cb5def41ebf679c5305",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "f43e90b667fa3c2711897da2f41d5018dd799b02376ecf585fd71b7bf0b7f366"
+    },
+    "C_2019": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "ed45f71a69ae714ad1ba33fffdd42b8738b6c7c00709e9f7e1bb7ff61153a82a",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "d864234f77127598b49599424113b67986d4e03f164cc0aa85047220a35cf242"
+    },
+    "C_2020": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "4b19d13844cb289749c8049c895c1c6f593f66d734a7dc4eaaff477cc8659917",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "d8f2e166af61ca1c194bed4ee12fec0e7b0f96f60edd84b37e980fc63906f45a"
+    },
+    "C_2021": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "89f47cce39136fec4642a0331588b7f49dd13823eaadb0f23201064e10edab08",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "d73f55b78d5d82b8db784fc9486ad9e1ba79cd2d9253059634854e77391a8857"
+    },
+    "C_2022": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "978d29d7b35fcb2bab5a155679b0adbc43053cf3420a0057413f225100d39251",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "72ac40d04f1d310a742800c2bdbfcc4465c0f0f805d69d911d3c6432a89ec073"
+    },
+    "C_2023": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "6960d5cb438ee86b81890cc0bcbc44dabc1de8c766ed9b3c262b3d1fd618cdbc",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "8d4d04db6c3ca4ae257ccdb2e18ccf1e1bd3cc7e96213ee93a89730fc09ffc59"
+    },
+    "C_2024": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "ea24009b0049a280099be93fbd04532da37c0b48e1efe857c9fa3206c84c2769",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "6d9de0385a8398f17926db6f22ca56ce4b5b0f0c867c83d5aca71b981924b3f6"
+    },
+    "DIS_2015": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "df2b3e6b4bf5169f0aa427940af3eb28150e1219c08f75c96118344336e9154a",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "5f75dd93fcc9e4f7d9a1ce060b867ac75b475ea964e17ac6b97f89ea1f03333f"
+    },
+    "DIS_2016": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "69bd241d6549878b16b28798eae68167f1beb3a35c072a870f263698cc24ca53",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "8599ba47555f45c8db491e957bd3d1f19cb7cc8e1be54c26f215db5d5cd8d4e5"
+    },
+    "DIS_2017": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "cc7fb69fc19ad772e27f123743aa24d52c3bbf7f62651e3b6d6c427cbaf46564",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "30ea3794cfa04ad4bed0efb0366e4498d10446214aff263bb6feb5d6819bd27f"
+    },
+    "DIS_2018": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "055cdd5759450f16d035ff53253b82b6db51bcba901d8a940dd888fe1cdcb3b5",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "e6af585e67c356732d79596b1b331976c70a823309dbc4507c3ef8d5c7500a43"
+    },
+    "DIS_2019": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "dceb36e083ef130a098dac7c4211bd242049db0fe496e6d14774804c907fab5e",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "81d1861b262d185d5c8abec33fe453abb217f31d585d32384b4f474d2047a504"
+    },
+    "DIS_2020": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "647f948b388de70cae588e862482cf632df4104432a2a434cc3f644e4d2b488f",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "88a3e85a66a929fdd15cb336dcd94946e35ed38e11bb86d3e13eb3837861b99d"
+    },
+    "DIS_2021": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "cae82261dae4d7abc79bb1fbe4e8a355d8fdc8fff2dc6764ff187f6905a30d38",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "5a12290e27620646dc43b52f13cb4919c46a11f8141a4d7fcabdff3eab04a3eb"
+    },
+    "DIS_2022": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "cacc0ce353fb762b4294b16f29279fc5d2c22e38d25df1f0a6b6956f854aec92",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "cf78b0fba8206c796f392611a395cddae1c24fc2d00c139e5adbba62a13207fe"
+    },
+    "DIS_2023": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "b2a118b6df650fa3b27246d8c2436ac11c996f8417979e8df5c0b13ce8f3afeb",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "8a47bc77532899a59f96f9e5cd86ce332b330eb25cfa6f53f4b095d0afe80e72"
+    },
+    "DIS_2024": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "fe917b61da16c16e318577942908c834bb253b7fe46e72641227431affc2e76b",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "75ba6fd4876491318efe2116c780e5b87c78f973f18c0ebed84ba09b661a7c6a"
+    },
+    "GE_2015": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "74b76910f472af39e2d216da512afba28cc39ac39cdb4df5515a42afcc464f0f",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "0f1b1bfa39b937d80cd73c29bbf7b8e285f896d5b00acac0a9bc5fbc79ba21ac"
+    },
+    "GE_2016": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "d129237add381a6c695b6bf710d4e245411040f1ac25eeaf29d735c302bacc12",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "31111da9960dac4b62a544640867e02133700b2a73ac99ab8fd019f8e983472a"
+    },
+    "GE_2017": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "6b4f6008d30f1b6c7415f35db4331a9d57bd0221af3ee3e730e239c6be873f98",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "44acad09fa0d8345f4166bf860587cda6ed01e24e27d94fa3f3dfd37ed68195f"
+    },
+    "GE_2018": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "a3408c482108cd597b1182b07de79caf2c167ec1dd4cb36f9dc69c42ba48df55",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "ec8d9e3f5d19b000fc0cfc9ac12144298182be96507be36aaeb0766066832fed"
+    },
+    "GE_2019": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "e5fe530788799a6fb3e7dd25af61b5749c50a2e38ce3a58a775033a65ecc1c5d",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "9712ab78e4d3eb5617dd8bce7a02dce84309ca03a0e665206b0ac3e330f211cc"
+    },
+    "GE_2020": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "38d3dadd2769da889ecd235a22246cddf328669e3082a1a1a24bfa66706291b1",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "deeb9ff16db447cc9676aeda4f2f889aa4e259906ae539d342eda7894299cbb7"
+    },
+    "GE_2021": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "4074b682be6eb041ab7fef8709c04604da83e8b025a687e56e8b44c8e1b81006",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "4739282b55581f1ab3073c030e2597a1714f0efdb2605a5bfe0cbc280b40c3b0"
+    },
+    "GE_2022": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "443dded1ba0bbebc3d873012690c4a321a27dea2c3ef6029189b778d200c42ed",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "5186b4713183f712ac95bd7b9f33e7c13d42ff29e3e8e99af01281a9d7e4d952"
+    },
+    "GE_2023": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "e4700a7e6c2122e27d9b4d6fa956a8488d7a1731e24ace768fbed8130e41f424",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "a5012dac6bd1dd2da7c338447c0d0cca7610e53132adfc30f7b79f4717a52779"
+    },
+    "GE_2024": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "7b61cdae277b9cdd8254ae385ad0313de7b058e3b4b4333dffaf0f32a4066727",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "b07433f370c4b29931d33dda3d5ce6158e0b9d1b0f5c27c9686bfc95603c43ed"
+    },
+    "GILD_2015": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "4aa901444b30e286f28b49119086e0c40f229177f3155eef272249f2e6a2b537",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "e3727a353d0aa113cc2f9447d2ac4ff585b5b372a62e02449cab822a4005365f"
+    },
+    "GILD_2016": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "b3795c62b421b58967061fec794a0411b29f372609035da2fcd4e507de5c2819",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "6b588c643234e9fc59a6ffeebd3acba224ab1ff67a14678c98602b098c883f66"
+    },
+    "GILD_2017": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "ecf0541ef1c6a9337c31b1bba44cac3f15588bdb90b3792588eab63d9ee40235",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "15a10d57856f22f6ee9af4256218802ee6c0bff20cc551e1d1ae4d9e62a1edf9"
+    },
+    "GILD_2018": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "492cf30676e69b3d1aed05520f39a0586e4bdf9fb84ec3759d6c581d7bc6279c",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "0428ca03453bf9cac9a4ddfb7094e73ab8bc38b618974c2117f46e25cf951166"
+    },
+    "GILD_2019": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "408ab3536372d234ecc8cd04735091a98a609674bbc4561029eb01d81cc79448",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "f31c60e3fd7a4698fefe0ff8ebf08cb8642d4325fea6734f74f4e6af464a7c2a"
+    },
+    "GILD_2020": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "bbcfbb4875924f0694fa303a57814a5ee38f6945b35c31e464e1f06e04c27729",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "61ad08f13d3ab6eaf02e02f7108c6b7593a99e32e6388ed15b4b170a1c9f46e8"
+    },
+    "GILD_2021": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "cbb57eebe08df5db51c96444ea8f34ed60aaefa7d397993d43420dfa2ff4efca",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "6500f91a61407f4270a00d5eedfee5d2c00b6671fbd00e4332a581e180517190"
+    },
+    "GILD_2022": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "999c8b5d7e9afc12ebe976d6a138257044a4272414c3f551e3ab9b50009c0a70",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "ba2db5bb2ad8997b42b44245a07280c4c8dfe90c857bcc92430853e4faaf1e63"
+    },
+    "GILD_2023": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "802900035bba93d8914b92ae124d5545acec8c0e4ff8b9460c11d7f6cbbf2825",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "4e3d5f7b8b5290a669f57a47b2b061a404ed6a3474606d83793116f950b28b26"
+    },
+    "GILD_2024": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "a4b61507d55169ff291ed50a22680d67e7896e639c7b4aa2b89b42496c1cade8",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "bc9e881f329d1e0cccc967c020b2047f44fbccc651aa258a60b6c45d7e854edf"
+    },
+    "GOOGL_2015": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "3bc4bd9659df25b93b73004e1832d7751a9487caf7b2b57d01665fdaa6f702c3",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "7ece9de726df9041522f1bdc3fbc3510d9fff7cf198fa6454fd9a5c0c33b5630"
+    },
+    "GOOGL_2016": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "3261668281d13389e2bca39460c9c19ad359c098dd50e4425acd87b7cc86d6af",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "a11b00df3ccaa1512ddbb012caa778aa9ed6202a69e9b96f96a3b15f407c473e"
+    },
+    "GOOGL_2017": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "e33ef6d9563faf9ef807f2cacdc3f12e98cf5c7bf61047f2238d7864e236d9d2",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "0a55ca0960f3c7402de60df0afe34f0325cc0fd539bc43b7a8d3fefc37aa9879"
+    },
+    "GOOGL_2018": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "22348a9b4f2a302e723309209f306ef5264b212fc02d9c9f926065456129b761",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "590a338d1975f0dec765f5a2acb258df186774373810ec2e82a1e4104419e14d"
+    },
+    "GOOGL_2019": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "c67b2d780a1e0a233f744ab2ea89826e9d87ba3f0e3c8e2a95e6e9493524494f",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "636eafc7eefc3a2a4efa49909e92d3cdd0f1bcb1670b5812b90f44c1216023bc"
+    },
+    "GOOGL_2020": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "af35e7d043090cd99b6a06950a51ae213c197c4351e7e5f2d96b169abefe9e97",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "4771c669bc94401ebd9f09659d8594329a0970f1405dabe5a02f85ccaa82788e"
+    },
+    "GOOGL_2021": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "b621bacc10040dd284cdc837bd0e725e4a6616c2e7d412b9c18c87445c3bdf54",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "db4c290a9ebe7420f3762accec75a0c2b1fe71d07ef4887513baa025e39dd86e"
+    },
+    "GOOGL_2022": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "71ecff39c22603e328d26b439c144e8e16e85934a236ff2a39fd7fcfd41dd674",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "9f633e7dc49fcb150d3109043124c84ee9676d879345e93d45aca22338e134dc"
+    },
+    "GOOGL_2023": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "ec17c82102a5bc1105d88ff5843c6038e498553e8da15d82a8a443ac954ca08d",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "b4041291a7a5215aa8de689ac4fe35f8bc43ed0160221767e9129d2bba7af164"
+    },
+    "GOOGL_2024": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "0583ce9b714837f4de93efda6ceafac609d9dcf00b50b7e361ba979b632e00c5",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "de5d30490e27de0003ac8971cf8d16348649bd492aeb3ac10eda96e2421450d1"
+    },
+    "HD_2015": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "19d17bed7ea29446454c908777fe474e1c8e8878aeef91db76cdb1c7a76c4a9a",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "5672f3e080582de30c03f034497db70901d956449200bab50341c0fb5df86752"
+    },
+    "HD_2016": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "b6fcd0dd2a15741c81b995d083b2fbd83b4951dc02249d3469b54c4409362169",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "4c4fd5af4971d70e0767855558a0efbbcaecc774752983cd2dde23787784069a"
+    },
+    "HD_2017": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "6d7d2c358f138512a9b20a49eb97abe7e25546e4b94f06ae584aa04ecda6e3a2",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "d1f0e2db952dc6b6e05300e8a9ce439604c82a8166c41f5a782927655a9a54d2"
+    },
+    "HD_2018": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "6ad15a1327121a44996f2120d00871b05c98a2350d16152c5744c1f801104383",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "b03bba911db953ed7d26d3d12ccd7884714a4b242ec5eb59bcce17e525066416"
+    },
+    "HD_2019": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "3f96bed6dd97c3bfb3592dc57f533e4936672bf6bb992900d22bd18361a7e93f",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "8cfc8ca47376fe61e99ed0cd006d73582d4d97b680ca34d6af27586499af6f8d"
+    },
+    "HD_2020": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "29a632835ca3a5d4d8c3568fa565c663dcb0a381d03febfed4a0d1e11065b82b",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "8f1d0d75c801a7980b07a2e7b6a2cb7010421a15b37c3c5b3f4e48c7894c17d7"
+    },
+    "HD_2021": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "0ce1d71e9cba01af2669d8c34d0c1e7722b03667aecdd6dfac584cbfba2c8b51",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "3a13c2155fcb3563dc917e59d1650f981169db57dc06b9b6af5cc90b0d7d63fa"
+    },
+    "HD_2022": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "edd8eac44b9811f25e299c9a6ebbaecc29599efa49bc18ad2ec421e78410ca0f",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "ece1dadfcf4ff8900d88abcc07026d72e2179cdacf9c4fb37c15ab81e1e84d58"
+    },
+    "HD_2023": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "1c7a8dd0029a11bbcd11936de2f6aec78b48ebd0961f7c15889c7777bb4e0e73",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "2cb3a1fd11569e1126f6d79e08b444ee0b4a907183ff805cf41ccf04f616ce1a"
+    },
+    "HD_2024": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "b08829884eb237e6d000cbc309e078c43931bbcc520c3f528b0c92e45f97f209",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "78a629db4190c3840adbcb8f56655211df4ddc1aba22a401ec90943a7d4758ee"
+    },
+    "IBM_2015": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "b34db111d64f5b874d352279616b7245786e6bcf1f14d50bd3c30b87a1ca508b",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "7af8a7f01a1ed478ce8c753db186bbd64dfd5e906b5f1ad7a2ad24f1936bffab"
+    },
+    "IBM_2016": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "275d98404cbe7af1c4df0e57fbbf002bf06aa680567c99a6b49dde23b116d2b3",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "9b392ff7055d1c5ff8820e9d92abf4900f69542a97567f7e56a973862b82dc2e"
+    },
+    "IBM_2017": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "906907e71f2901b5df0d88ea25b8231d1c84a8133572aeaee3c597427b656473",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "ec0a26a90d1090e72e202e8b6fa8700d777edef32c7ab53292131088c00c4f9b"
+    },
+    "IBM_2018": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "84c6a16c1c63cc1cc087117dc354b034a3ec7baf1781a8e23925b1cfa9fccb54",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "0b8702487d2f065508fab967a9f43d997eed6f5e337924d3827640d096c8d3b5"
+    },
+    "IBM_2019": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "b5b771e031f58fbb6d9b38630af6bafe3417e4e0356ae76db1e003b5d355aef1",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "2c077434b67fcc8d4a4ee29b5879a32b32520654e2b5510938aa4a899b458eb8"
+    },
+    "IBM_2020": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "5f9baf2260a22d39cd03981eb29e83a7fb90a1167a395571c53ed9ef43458c7f",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "9ead491d787172e9fe975e06d9c0d88448ac0f77238cca67f242c3db931a9dc5"
+    },
+    "IBM_2021": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "72e2fdf7e6749209e5bca3b1542f89903b1429f64f07b8f4427d07d66ceab81c",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "01250fd74898cad508e6229209cf05645eaffb563c62f9eb4e5f89aa6b3d872a"
+    },
+    "IBM_2022": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "d77e662eaf298f102e385f1b2a1ef2406982f524597aaec810ac9f369c23b82e",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "36a9014a6c9570a85f1c35e14f2ff469a3397c1261c510efcbe4967c7b6b4344"
+    },
+    "IBM_2023": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "36e1b2dd28ebc8eaea6a37d6a812931e049e8ce55349835a8ebbd0529754ba6c",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "95389badafc580c5ca7b9f004aad89c8b14dbbcf88157c17d7e1ca29b3716d26"
+    },
+    "IBM_2024": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "2c2891a8c408988fd46347776277a3217031308327bed476a24d90bce665b0e6",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "b36cf1698fda8be14831d18ebf44bd71b5479ed0dd8dcd53c56586d31542903a"
+    },
+    "INTC_2015": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "836fea2d80f67a894f1a51ca1c7b6bf3d5be9392de272a89ca1cbcbd5bba9c28",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "15ca5ca3045374a265fdfa407dba0f6a118ba40921d7102b93da2f6115ff6779"
+    },
+    "INTC_2016": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "51b41ec9673c930af2f836a39f7164698a4875a9e8885310af25ab9c89ba60a6",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "ab5190afff1058d87894ae9ce910ee2cd89ab12be0047c9030f69d4e5200b891"
+    },
+    "INTC_2017": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "fd4ae6a98aa3b538f05c1bfd64a5a158f48f20398379e4bcd3138f2fa60887cb",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "fb4205732c77d26d3aeda6c589a7a1fdc5922006df20fa4fe17c85ae1b05b101"
+    },
+    "INTC_2018": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "8ddddf2c8d86a90250a38b248176fc5bc58711572021e40024adbb799a1ff91e",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "42f8c17af33199e463dc2a76cd9437ea6c73d4650c9b582cfcbb4603ada16143"
+    },
+    "INTC_2019": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "af7dc9539f934441f04765380b3f75bf7857045fd868fad98599ff2520210642",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "9638f156b8f9e023a89e83a6587b58d1966bde33f0d829fe429da7eb87c943bb"
+    },
+    "INTC_2020": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "152e7308bc90342e05e085a2cb93f914ceb33a0a2354f32d9f2388c31caeb2f9",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "362fcb2f0310f2e921b998b2756666700f7df148ec397914e3187d643f4910b5"
+    },
+    "INTC_2021": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "8b2a11933b2c450e29eec28ab7bd63060c172bed289af986f46d1fa922d6f963",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "f49b8444302bdfac33612dffcf0efb197e8e58a9d5849c16c7677d0119f840c3"
+    },
+    "INTC_2022": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "96597fa10818107ce44c085bd6d9e538bd045a4343cc333388a8d2327c0b86ef",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "ee53f4df8ffc8fa341fd856def367d0fa0a507bee4bde1cb6e550d9726940199"
+    },
+    "INTC_2023": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "de74120fd9a6f3dd690c10ee9517cdef35ca0290b87132d28e28bf3ddcc4370b",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "fba2f8ffd70f36e88c70993d7bb722c4bb0d1582ae39ef6353ef35ca141e5a01"
+    },
+    "INTC_2024": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "8f2af0ae8998b2cf4f5632dc240731ad72571f8519b5168f169ad0603fb119b1",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "9347393b66cd92bce8a169e53455a2e08a157f0a7a25d175e63d31e963292f68"
+    },
+    "JNJ_2015": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "d81f58ebccd86a19e790198e9181c7b5ae8c46ab46f68c0ef8f4793aac53b94f",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "2ff86184cc8982d17de652585a96c7288d89c9aa65b2844f339cce8f5b0ad4ab"
+    },
+    "JNJ_2016": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "09708e8185867b43e2ea86ff6550f45e0883878aa8ca681fdbeea220867aa301",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "7fd60a839f6a01d7bc1fad862332e8dc8aa7d52b0df217c9efaac28157a37644"
+    },
+    "JNJ_2017": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "74c40ff41ccf37d1aa0447374ba8a180376b4fd20075264d54ea4e44990ce6f2",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "4bfd695bdeb8f2fc49e8a9787180236e33b309e6db77e8acff922978a457fb35"
+    },
+    "JNJ_2018": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "84d81593827791cab9b299e6ba3574cbccea06870a21cf3d84947bed69285185",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "bf75ff8a26db84453e6c9136d9bc86a0e178effba1b4a2cce91819541a7a21ee"
+    },
+    "JNJ_2019": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "c41b82cc107b15b1a5f3ff38cc4f41937607228fe339dff4e835e7b63336d5ea",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "641d1d90ab4dc1f74a551c0f94a1b9eedcae457bfd710f7a49928646d9c17db0"
+    },
+    "JNJ_2020": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "6adaf5599e7e871528735c061c972b3325e2c0e35ed7c37d4c7d208465e2683e",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "67804d4a3a97598313b04cd2f3b62a66a8cd12ee83e47ddbfe3efa43c9beb853"
+    },
+    "JNJ_2021": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "7a933cbfe84cc277e29119e9c58ec2874addd59cfeff9207d3f199e5d3531efe",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "c3bca8213a0f55b780460c332793e9ba163b02fc1fc83cdc7867ae5a355833db"
+    },
+    "JNJ_2022": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "7db5e44fb0e29c8b5dcdc263f77fcbcf5668dab1265d92b9dbe7da7431d773d8",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "5896b860193e273e0713e77995928dde6c106875985761cba5606ea30fa1afa5"
+    },
+    "JNJ_2023": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "1cd999065ba9622050e9c5b5336342cadf82342537de56dd2f75467d1b218594",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "258a9a9cc4ae9f4627f9cdf44fee06997b3e9145d5a3af43105c4e9e48126c11"
+    },
+    "JNJ_2024": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "5a5efba443cdffd34eccef3db850ea20f87779ec116e45c1b987e208caa72543",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "4626b69da90049afe2f654a45ce2a6d7523ddc91d22bced4df30a19fbe660f4d"
+    },
+    "JPM_2015": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "ac25a2942d3f6b8d3669a11998c3be644d129b3a16bec332a48ffec3355eb158",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "b5694785b045b32a6ec42c04130fcd7269d23ef9877c674eeb1cdfc821438cfb"
+    },
+    "JPM_2016": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "970f33ded487be78df7f15bcd1e2136a8a5c1667dcc4fd9ecff8606c1011ab31",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "9a8a4a3bed88f90e32d501c4031e12c355db2cd28ba993560354bb1ee71f44af"
+    },
+    "JPM_2017": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "09d73391923171f4cc83bcadb549a129b13ab10d08dd59b4c5af6e44d5308ed2",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "745e992620b7d23fd3883a47f0a0fa21a40f97d8211581c903243df49cc614ea"
+    },
+    "JPM_2018": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "82c642a178970966c5deed72908423950ffa6b2f7729b3117618d96642633138",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "80b4437606dafd3c3714120982c09805576f7e9ffb19bec464517714b3f06a75"
+    },
+    "JPM_2019": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "b0136d44351bddd27960e041afeb1169e402b72fb0c8c21855cd4fd3e99a15de",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "353718b1a687cb624f7bd16b4c1723dfd3d23580cbf15ac4b509a6b774023742"
+    },
+    "JPM_2020": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "60316e545a4b5515efaa38b7c7ac038898cbc3e7e2688b81e171a6aae5d1597e",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "51f76e42fc0db81d2b0da9f8d33791498820040338c83ac84e28795007b3947c"
+    },
+    "JPM_2021": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "8068882e1675c4cfae0056a4ec0371838e508aa732fad6a71b0a6abc973db222",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "b94ea09f6ccf804c5a28bfefd6038803979f63cdea030b8d401db9bccbcd0081"
+    },
+    "JPM_2022": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "1b5e3829eb67f1f33b30b94cc555f8dfaf5e23b704b8fae2f57ed2bef517b1e1",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "6af42b4228d6a0ca2f88b49db5ec537b2049246f6b3ee828fd24a20ca72ee8ea"
+    },
+    "JPM_2023": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "28514eb319a8e39902ec8ec9c1b8607b3b668bb8c564cfc90250e92a790a12c0",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "e1a3242a510f71448d4c6b9e9110a68f60bfdfe22cd5bc37ed1ef0f9b90c6fa7"
+    },
+    "JPM_2024": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "ebdc5e2465f39c3a74f682894dfbcc236070fb71c07aeef1a5f67bcc8ccb81f7",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "364c153b240afe42c1bf333e5533259e0c2c61ed642171a1d7d92d7bd80cb89d"
+    },
+    "KO_2015": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "1d50a35538fafbed46906cd261bcf40452e8437a3f56151ab5e610bef32a6eae",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "35e352f5602d932717c8fc06b9577c2ebde91b15fec5b0374e0c70d2ab8d9805"
+    },
+    "KO_2016": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "0594f68b2985668f0c9982e18ef36e1a7ac635ae1f6c78cdf3b21c69a711a7ed",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "3b3aabb092b4afedeef0af107d9cb1f3e0a3d57ae00d959912b98c7872964c75"
+    },
+    "KO_2017": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "52b500a85a440baea55bd7fe089f9840855809a46e041925e993d848d9f88047",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "bf86e91eec9b483fd615015a6f58de7e774bb6f78c2280bcc1131b472a58c3ee"
+    },
+    "KO_2018": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "639ab6f0bbbc08cc985b79b6eff3ebe85f201b7547002b82d3ec604de7272583",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "c4b85035a9a6b76c15b195f9a46c524bd3649c2953340bf1b108d42bb1c05cb4"
+    },
+    "KO_2019": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "a592d8f11e4dc18fa12abc1b3d5be264a0fbb44d0a56a8c8270dc48bdfb59adc",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "9796b3b8304d35f440f5e74af1b217508813eb731100cef2c4351970aaaeaf58"
+    },
+    "KO_2020": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "79943ed3c8b1d12c914722f920c46b047137369c3c945978850708982ac0596d",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "d3bfe743c91ae11cd254c804863d39b4f83537c1699a91031ee9de4b6ee55b79"
+    },
+    "KO_2021": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "4039636bd45e6612e3376ce272d10f579bc8ce888a53dc51fb40d839ea6762a1",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "ac2f722e4718e01467babef8fd22b3a6eb82539f95aab6d76e9a929ef695f5e1"
+    },
+    "KO_2022": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "f26250fbacdd89071ce619699afa63f8220dcc3b467926eabf7e97cf3b7c0d1d",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "7040142a221effa1d389084fdfcdf340952c15f860608beba1989cc493028a8e"
+    },
+    "KO_2023": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "40330e057acd1e584734e9590c0c2fb27cdd1131bdf0d7164b1dbee256ab2564",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "f01fbf6bffd05066bb982278ee965f745f9418e4243e33cdaf9d6cec7a296b25"
+    },
+    "KO_2024": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "cf79d8b6a1199d47d7970acf5443058ffb9bae5328548b65cf282a4d69266414",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "6b65d1c0aa187b183fc9a27374e211b640616be053370b733d73b606f951237b"
+    },
+    "META_2015": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "eb1c7f15a7ca9e91faa3923a8a6d58c9ed069e9cd81e1df6391597cbff894bed",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "62e0d90da3c02d0518abffe91f46571b0bd304e140b0f4ccbcb236998dd8529c"
+    },
+    "META_2016": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "0e0c16a4a57cb67cfd34deff0c0a5b7d80826c888317f24b91022b112e07c309",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "4e7a39e8a970346ec0dc7ae745fe04fb0a6f40fb7aceedbe32d610cf95800d16"
+    },
+    "META_2017": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "3c4b42f416f41bbc0152cef36560457d4bb252bbb0385de1e90798347b2a7383",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "f9c5a67c411d6b152a84f96b2c78ecfb409c2a9ff92d67c1f3ed9fdbeea49ffa"
+    },
+    "META_2018": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "025c1fdd3462632ab91ce29665c3d71e973e5e422168e7a4789f8bd74fc15d43",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "ef56564128557b5aafea6860db399155bf894062332548235c9a0319001d189e"
+    },
+    "META_2019": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "49e840d91966b038f46e95f9d030d0c673ba175788a4afc82653e0b809592c61",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "e0723ceb9ae6fe5bc65c9c42dc0ff09182278e13bbe63b83c3c11fb1ebae9a42"
+    },
+    "META_2020": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "167a7d372aca9f18eab665cbf8e20e3520dc6dd4f1dba724caf2a699caf952d3",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "157a13b9b97c4c72e68f72fe5b11dc645d9cba9371a9371d781dd09279230f93"
+    },
+    "META_2021": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "e12a61b1bbc7ad5565279f4e0f3cfd5d1aad16778e1a5fea1f77984535218fc6",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "7d4cdd4b328afc4d8c321ad8b43b08b75cb909ed84ced680c3f2916943e80c88"
+    },
+    "META_2022": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "8a05062c0d839c28cca8aa442e87b3df975911f5989703e06b1111036a437bfb",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "89c8906231c30ec4cc8692c727953364f4cc55a768dbfe6fd0efb98d85647ffd"
+    },
+    "META_2023": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "06e86c9f80155c484c0525f67e444475a17424a40728462ef266c061dff1f645",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "1208556591c111b55f437200551b9df6ef3caf6dc64ed2470dd595d536f10102"
+    },
+    "META_2024": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "ef4583f3ee8e901b8ed1f684663c052a454e6c3ca181409d6ce52523c768683c",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "fe424e6ae3865fcdf1240eed32664ecfa6f22a723be780ddcaeee149f3cf0f22"
+    },
+    "MO_2015": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "deb2ad1248a1c2d3e868d58bf37db8be145d01ac3a0f6e1a4bb2a04a342b92ed",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "cde3933477f869f1b116be2eaff6572fb559803208eb30327d006b5268a3f2a3"
+    },
+    "MO_2016": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "9d5c7221adf0e7e94952b32875914d85f93d585b39761e7377eb2ad06759316c",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "a5013b404143d5b7dd253fa3aa0f9d088afd39c25f5ad812b597527ba7c4553a"
+    },
+    "MO_2017": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "59506e4eba37a52a7cee0e667cb59f2057985c0e3a571c61e37046ea331e9101",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "b65b293be02673a67831d03355dfd01491f67e5115dc6e9fdf040b1abd6cdb7c"
+    },
+    "MO_2018": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "683e85920a9454d0013003425a7aa382c10a24bcffc6b7f20ac21b932a7fc738",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "9a0da8665bc00abb821e9d45a2e6be3c455263621989566cdbc0e4c83b842080"
+    },
+    "MO_2019": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "78e84324b23b95d4f62deb0179fb1c08ad8fad23f6143a4ef105c03aad24153a",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "6e9a249fabd1083c2ce7d062b32719b7232c8852a43cce6fc3b725cefea819dd"
+    },
+    "MO_2020": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "46595e7511e109140682cf22ea9a4cd0a5f70db9f3893dc7704fd3511d85ee4c",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "11c0a8b866a885a33453ca535a419501142e8d72354f220959db0b3924f3ff6f"
+    },
+    "MO_2021": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "6f1cac6c170645eddb1169c6b7f5434cd8d12e61c4ba27484a7c6ace5758401c",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "ff082960a8a7a8f456338882bc919dcea79daf25e686beadbc717819fb3d45d9"
+    },
+    "MO_2022": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "9fe62af2caf6730b74b941a1074d7ac6d1c6656a483afb40eaa3b6cda58cfc29",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "263ef2b504120f5aed01564f95de07080cd2da062749fa42820d05a761e77721"
+    },
+    "MO_2023": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "c4e52909f4ff8afd6f59e4fb34a86ca0104860aba81cfdf764ed05cf8924cdbf",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "b10b9ccc0ab25f95efafcb8a6975c40b82762d23cb8efd957e0a6e29d90891d7"
+    },
+    "MO_2024": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "7661514151560c864d195df028fb3ce8169f62a0d98012c85e831abac53f5bce",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "8ec12a94ad973d38e850f0bf7ec886100d4f4a299a26c4e8c7b6a981f3d3f7e4"
+    },
+    "MRK_2015": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "2aa60eeecf8daf729c3629bf5455aac19c20f06bba68c5ff85aac4f248f50a35",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "fd43f37376212f946b73c892f76c3f8588a97c7311f06b942c17e67dbdc39c3d"
+    },
+    "MRK_2016": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "1762f25a6fa9ac31cdc43f166c7d4357c3a152b8d80c991723164845ff84f4c9",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "c1a3be0702b0959b4c4f2604ad27d37b92b10143f7a53fe4fea859d6e0913810"
+    },
+    "MRK_2017": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "207503d97211e96cba4bc18876fe22fade5e10863d34570025423e99aa4347f8",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "48de093dcca89fa636cc21b68e398dbddcdb2bf5a12015c8ead6f2258aab6d83"
+    },
+    "MRK_2018": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "3a51adf626c127e8e1a209241685fb0cc6c8eecca688e2efe80342879dd0685b",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "adcd1ab63f8781018cd7b857a15a214ab5ad0120f5404d11f5620dcaf899cb1c"
+    },
+    "MRK_2019": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "15400bbd4362a548a4cbd57f76986f89f60c5d432769d85df9787c883221003d",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "7c0704162b8412d0585ec66e4d4f58330434787794d3ae0df0f41afc01c829a5"
+    },
+    "MRK_2020": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "3535b64f501e3cd29c99d04ee3052483022dc1a19f4600168b27b667069b99c9",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "be034cfe42f1bef287d4c44db00d7471530f14b2de400175a031787f3ab524bf"
+    },
+    "MRK_2021": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "d58411f578490a422425437e21e4220e45f269c26f8e72ee544a877cd9c55e29",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "b7fecff86ccd4727fa719756b2dee665660d721d30e4229baba3ca02289b8610"
+    },
+    "MRK_2022": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "b765b8e834bb4aa1081ff0ecfffd0212eae851b413f97e73a88d7b399c5f5082",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "d3e14df40ed0ceebb421d76236d2a469de35259eff64b1962fb06b02e269fdf4"
+    },
+    "MRK_2023": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "62974259fcc0e20efa57b4476abda0a5d592ef7bc1c8117b35026ea464b4a9a5",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "e7cc9c55a1c365f0f0b88f3de62a3ff37e39ce479b50c1e0eaed768892c056a6"
+    },
+    "MRK_2024": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "1143c11a989078dd429551bb55e399bae1d834b31b95fb1326b4a2bea8747b00",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "d970096c3e0cfe9a53ac8997746cfc92f36831ed6f79535ee6624bd4d8db86d9"
+    },
+    "MSFT_2015": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "cb40140e9cc70642d97d6632df8abe24314ce2b6660be74f4530249c902e4160",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "ab3ea259cbe224e45702508d44235f9a3646b890388a7df1b6b5c82f92e2b350"
+    },
+    "MSFT_2016": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "e5310bcfed5e5fdb49607ea74ba6105acbb62d95c5ec8b858351c88336cf9519",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "a7b4dd6419b033f2e62e13756162eb49e91f14fb016b732bfec66a270ecfd9c6"
+    },
+    "MSFT_2017": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "e344c52de1ddb3e0b6f4c69fd8c5d9dd6020ab6b1d6058950e01eaf1351dad1d",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "b365d7cb58249e2b54be2ae99d91ecc266f900525fe9d3d6e2b08d039176bba9"
+    },
+    "MSFT_2018": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "f9000ad2946aafb01d98a3645a492e79725794287cfa19a4e067e985ef3ed1eb",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "f5330aa6bb00545976a760de6f90fb8b6946d218c290a2bcd1a15e8b49103fc4"
+    },
+    "MSFT_2019": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "e63c4295f0d0923053cde8ecff55964a7948e14cfd945a39f387cff8dee8a543",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "1bb7fc000561eaf3c165faa3e8c978f62091427346a0a48bce219a7fa6f994ff"
+    },
+    "MSFT_2020": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "6780c06d279dfde656394d7a33def7a6b3e5989f058e3d8973fed5d1ae6f86d3",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "a05fcf0b65251fd20bf39e1241bd6ce8f79c074c79f6d9662abf9d5115a6c5a3"
+    },
+    "MSFT_2021": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "d65272b7bf63cccb6bb62d2111f0eb0838fec4076c090f29b1bea805ca63a7d9",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "85cccf028cdb6a9d3209587ae8ea809eb45d7fff091ee626aaf4e2d65855070b"
+    },
+    "MSFT_2022": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "39a3b8bcd73c82ad61fa3c5ed1d1340e17f490e96727fb289c926d3c5e0c8bd8",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "2d54f4803f3b1527a39c5351297d990ca244869dbeeaf0cf281cde0dafb58423"
+    },
+    "MSFT_2023": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "5b59299e61d7d2bfe05608283041d39801bb6f9640b58e85a0ea99df6391fb5d",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "cbba7d4215e00c5fa55dce08ac55018586086651975b1a1b0218486fb96ff762"
+    },
+    "MSFT_2024": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "32a0aefe517b33191a0b78a3082444290a517f79c4559e53a8f522bf1fedcdfd",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "1f7aa9b512f6aef5fef06234214de3e75994569c546eb317afcdd8c84b2e3735"
+    },
+    "ORCL_2015": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "17010c524e7b6c0f612d4d2807b295ba11d56fd6d5c3eadec0123ba2d033e6e6",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "abd38e6a70ff5dd33a5e4bab4ad624d84b9f0251c6c117b347c60ba35364942b"
+    },
+    "ORCL_2016": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "8e838cf6a8a804065a2e6c3b6351d43bf31197472d4ee15fbbeded78737851bd",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "a323c6b331aa73be39724b808f68d47635aad650757c3f3e6173a182288e36cf"
+    },
+    "ORCL_2017": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "aed0f153e1077db9f3b030c49dc073129f3a4bbb309042c61b1fed672ee3d6fe",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "2b6b311036b7a28592294ddfc126e54265dcb3ab26560c8948e87ea779807e02"
+    },
+    "ORCL_2018": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "3c9c0da34868fe1ac0c1133ed251320790987d82f1ca411e627636ef5786b588",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "b8052d03652d95eb4f7cdc9fbfe9f82054d8ee92ae657237eb8a8129986bff33"
+    },
+    "ORCL_2019": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "0f777ac71953370223d62104675d1a96e541746e7ba6b41195c57c2935bdfa89",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "cb6589b203f10f2f9b28f76b6c208ae0002d6805020c20f5272600c18d399e7d"
+    },
+    "ORCL_2020": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "3d92fc991be3954096d01833a05095018294fc8d6b32aaeec1c62b1e467cb73b",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "4f7750fa0fe47245c73f300d9eb069ab7fe7dcccb75266432dd070268003eeca"
+    },
+    "ORCL_2021": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "d000e215063c581e0687a21c77d39de46c32dc08c7ec1ff54a5978a121f7233e",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "eccdbe95db1543111da59052d001742aca861354f16bf7d5c26008f6f208b666"
+    },
+    "ORCL_2022": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "c9220c54366e8cc927d7286795b071cb6740a28d58e1d88c840c696e48000d9e",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "0538775edf378907efc22e0a4c9156c373449e2b6628ec2b7bd120022fa06515"
+    },
+    "ORCL_2023": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "9789eae77022412dc0b89d744445f5c8fefc7434de8cee85e31a1204f360c2b9",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "0e39c41dca6d21ebf0646a495e486ef7ad839694b7d60241e0b10952eec3fb53"
+    },
+    "ORCL_2024": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "723bdc4001e3cf9968fc8ccd859f583ffd36d57e62c0d01523325f8c76b81ea7",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "6ba0c6f4a84b80d46927db9c204899f479c738047e68417849ff343f2b188d66"
+    },
+    "PFE_2015": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "5db2acdbaea6c19fedd41451b1d7fc6380222568a8506312596ff3748c2a2968",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "57df34dd7324760bd08d2c242c36d1207d7b76a52acde44900cee45fd0308c51"
+    },
+    "PFE_2016": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "e9dbfe4266054f37c724aa5c888653e560d46e2c192490c001763689c647bbc0",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "7795c5e4c64fa818b7eeb42033974cf3d2afbdf6d130a9079caadb79415d55b0"
+    },
+    "PFE_2017": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "9f9a82bea563f7047450ee3c951f9473a1e885609e5e2ae12e58e51eae84ef4c",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "ee970bac052b2741e5f9ac6886304f65b1a524252a95808f269b1935cc902b2e"
+    },
+    "PFE_2018": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "1089981517ad2b72479efa847585ba85b04a9be2b8146dd38c47eabd155957f2",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "231c96380b4a765763a6feaa79296cf7a3709f0878b41079fb3a2462b268ab30"
+    },
+    "PFE_2019": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "23c0ce726b37e57fd8d4f76c662d926443e6e0b4bc8a16e1c017796cb8df56b7",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "ce9ac4912410a48ace9417ade09fe1d3f0e015811ca3eba4826f1193bc912542"
+    },
+    "PFE_2020": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "a0df4a22dc70bdf72c599921004e4f639ee65db49002a542eaa39879272393c9",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "623121f76f326617d6e464e2266e618bc12241b65deffc179b45d6d50faaf7dc"
+    },
+    "PFE_2021": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "602170299965cc896e8b1a603426376c43580cddf72670d02be9d214a59d9b30",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "edfc7392fa6040393237aaee0bfff4cc6943e471f789df7ffd084d3b6602f84b"
+    },
+    "PFE_2022": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "9cc66281ac5fc76373a53a8e57157fd471d0c1cc4619e34bf2bf5a272d18eef3",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "787353b36e037ba653873062b5250992075d41f27ed15e2e3277b45885e13c30"
+    },
+    "PFE_2023": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "5f567727a1fd573106263c4394b9700457b8715d64e9a5754b0dd605e05b4813",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "2397a9ad5ef84810918cf3404874dae1d9d4cb7999aac8ae9e4a7040816c759d"
+    },
+    "PFE_2024": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "ee91e0001ec9b3818d278bfc8b5b573afabcdcc6cfbf86168cdecbc63d1bf804",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "138e71630492dad16ee9648887981cd3422cb0c7ca3d968108ec479d19ba5211"
+    },
+    "PG_2015": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "4a223798804b0925ba6bc90e643229215bc72f1a480399fb9135627fbc2270e7",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "2a08b548ed261a8f1c23a524dcf88d2f66b0f961b7113c349240429e4bf99660"
+    },
+    "PG_2016": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "bc15337d4724b1304e744719fb76f15472cd575f465b1e9965df4a9d3fccd38d",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "e719ea6db3787563d7c6619d65f4c7c99a6254b099b9349c313bb53fdfef340e"
+    },
+    "PG_2017": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "32cf5acf03d0e81275cfe23d6aa6ed2d5c2762725f19d0b88caac2847ac0593d",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "acaa20abfc82c3db6999bbac9dbfc07fd7118b7d216bfd257cdd50943182d379"
+    },
+    "PG_2018": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "c8f2d5967ee12b9bc489c18a3da2b7066586ea9fc40eee659c53148be815ba17",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "7ff41171e046468835094302fbf958cd3b4e278b93791d3056d254133bfa79a8"
+    },
+    "PG_2019": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "9b39e71cc23d7b778f6e331e6c37e94b646431e15e6f3a4d52f35b662fc2fe1c",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "082d2f0cf6286d44e6ce1f26c108988e196ddb830b082464e7113171d69e33a4"
+    },
+    "PG_2020": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "7fabe8f6a43ba74b48ffd1596a25ce91e1693b5b84c9fb781dbe47438f49938c",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "97da5f6cdc75c18146a6dc0370492ef714e3ce074d7dda292431e067c8f0b542"
+    },
+    "PG_2021": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "8d14ccacd42b1b73bfe7606bc20d40b0fb451deea22fc692043ed3de645e2e1b",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "aa5901b41ebe85560e22271332e8eda848ee759fe7cf4e3be582097a8598f4d5"
+    },
+    "PG_2022": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "27c97ae75221b0c95c248f2e5379c792d14f3254c4fe0043d94ee954eeeca0aa",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "2e7f1634e492b82452caa6c670ac055fffe92a41e8b49e38522ee61833f12328"
+    },
+    "PG_2023": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "1ce0bb08d8f095f2636824ec3c16127539a3601e70be1d3aa8e93ceb120b16c6",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "abda696093f1aae230fce5b0fe0da66ef68cd3e6ec925706ac38d3e951aaa15a"
+    },
+    "PG_2024": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "bcda92bc85ea67baeb75a19b7f6af83cba76e797d2d9322a3d0fabed19405350",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "778fba74e4748877d4d66dc93ccd28af12e31250cdabf380f491aaea31d1d7c0"
+    },
+    "T_2015": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "0ec943875402cb6c2c80f3d717727bf827fa2ccbf00801ec07c66e572be5e079",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "8e18e6169628019d3e591e2808f7a4d8e1d5182594fa89a34304171ca6c14669"
+    },
+    "T_2016": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "8c4668e4e1c720d83fc66fa80edc0fb9d2c9cc6911863bccc289287352e498a6",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "74df575f402e7882b282f9332396721068313dfa920979d3b8f19f622f138fd6"
+    },
+    "T_2017": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "c4839efc6fcb91399498f14e94ec58ea40a6b125b500202857d294bc9fef15e9",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "998884d20bbca1a8a95bc001a805879dcf768df81f4d14d0c83a317c372f32fd"
+    },
+    "T_2018": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "f9c8f5736902bb6e7340efd6895c8860c12d7cc674d4c9b03b01bf52b2d21d65",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "215a4f4bc8fdaf8d98ac6c73119832009c2bbc651dc79d7bb6bc973079776db3"
+    },
+    "T_2019": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "ff83c8492ba2bbbe65b380b3d1bb3ec10d01d1d477efe5eb774d597380f4e7f6",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "176e597739a720f976b3708936bb2d6ce3c00dec2cccc7b4eca66f244e258585"
+    },
+    "T_2020": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "65d4ab1b640a07a7188cddc5e80f29c7ade90ae5eb5083dd47a60e895a59ef73",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "08b7dd9c2c53967a10b84c5429bfc7f46afe733cc11c5cc4d3a7f728389de2d9"
+    },
+    "T_2021": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "53d59541853896911080f9ff7441ab26d71a49822428fbfa760f7f5fd74796ff",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "3bb8f48c20ae575d5343a760834a3ac10f5f3093410fe1292dd6ec20cc61dbd9"
+    },
+    "T_2022": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "66da20eb95bf29d419b0d28abd8e4a75e212a9bfa5c79f83770e7ce801a3632d",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "aa7d6109f3910719a35e212be4e9e1713214fa8ffa191d110af037bbd7e254ad"
+    },
+    "T_2023": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "b5667f6aae6d0c5b1dccdf63a453b7531e5382189d1a591a9b8f7fd0e376eccc",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "0e8940f09cad77b1e43beca18c5727ae4395f281930fc570150ac8ccc066a21f"
+    },
+    "T_2024": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "a6aa25274fa29aeadc1b1c7c8599008b28add43d01bae293e7b5218dfe26d0a3",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "81b999522cdd085a9a27dafe4ab67c38dd5f12410e3cd1b2d39d6ad4d8afc7da"
+    },
+    "VZ_2015": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "965d53b578d4e7f089707f26c6bcac4ece9978a22ad398258abf423517f81542",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "b3602ad5dead7e015a51732c80157d9d2948a5a3e1108edc4c872116b78d16df"
+    },
+    "VZ_2016": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "045d33ced92d70e0257fec403f280a3a0acec6d9e6522c37de137a1473edaa7a",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "d3324e1b1de762e4dae710754f20b6f43e96afaa14765e6b0547ae66489d3ba2"
+    },
+    "VZ_2017": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "e37a54c800c455bc2a8026d9e8a69329d69a76044b801f64702f34069addb756",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "c7b8d06d8fa95dc4d6163e6fa0ab34bf31f6c421e55d1c4c14481795e3fc3c38"
+    },
+    "VZ_2018": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "55a97d311d5568ee9274399f972a18ad07978b04987f88fe48635ed1cfe3a78a",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "394807f23737840bb814c223ab18e856c6d3092d4efd9cc0b7d18833ee62b678"
+    },
+    "VZ_2019": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "ec11e7b3dace12f4d5aff8e565f88b260e51ef9e90e6225cdd56d7ed10bedf94",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "1e37b0001c42b4e922332861fb62fc4c1f5f3b3ef6e8dc445bc694a763cdddb1"
+    },
+    "VZ_2020": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "40a8e80e3b1e8c2e919dba106bd314d588c229b4935a784dafdeb9cc226523b1",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "4c43b629c129c6293fbb3d5976afc58bb227e60a17f5dddca5c70729c9b313cb"
+    },
+    "VZ_2021": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "5b726f2f56aa55bb3a122558f33de0ab945c324b9b8875adfb9baa4dbf26811d",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "2bb23f64445f939e86e5a04ae27074eb11ffc3f99557664949be803d6e7ee580"
+    },
+    "VZ_2022": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "c397b0c69dca0b0c20d3dadb2c3f2d4e0e602722c7d66780f4c7b29170145dc3",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "4a3238699e9fb1318e52e5d886a7d05dcf4305fa22dc7f86741198dbb7fae0b7"
+    },
+    "VZ_2023": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "f9d76a48563e2675c77956f07968e5e18585400f23de56d5846799da91cec543",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "78710f231028396fa5a5ccf3fcae830e63cbe7b6bb81d57e566558cfaf5b055a"
+    },
+    "VZ_2024": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "146ecce49ee34f808439d1dda17f3035c5800ab637840019e00c359965860b37",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "0aaccbe9a8eb830ad830f88ad7bc5612e2a02916d311c5029cc64838371c765e"
+    },
+    "V_2015": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "5a4188ea88e3085ec3bf01a3b7a359a72ad7e50687d24b3287e18ff9cb7da301",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "398dccc4024f54bc262171d993c3e10c69b22ed843bdc39177e8ea177147b30d"
+    },
+    "V_2016": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "317ed2ec7e1b1c984a9ea887e351cd4faad4e3126c16c78f5628ee70bc3480a7",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "cf3a91963dd361e806bcd69a1c0e10dff03e16f5b3479620e73b137ec60ce6c7"
+    },
+    "V_2017": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "f3977f97b895597a3d3c8db7eb3e5836663b569f2dff506b5af13f19b10c0a74",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "7f2d44a424af122cd321df0b3275b6e2820aa51e0ef536fffa3f6aec5b4d8603"
+    },
+    "V_2018": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "44934f05d411365bb5c07d1cd27afda20619a1952f9c270a5de142df92011008",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "6cd0658f270e3d9f4d4393d5783b555693c464da3ea4f1f2f20f96b96f83a356"
+    },
+    "V_2019": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "5dee9728170c877269f37b2461007a982aa62c445d4e872ed86d5677109e2cf9",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "43cac2e7076bc7d50c8ea9756443f763f1d8fcd9d8a66fe66bf814bdff339f71"
+    },
+    "V_2020": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "7132f2372c4ea7c870df809773f0dfc739a7681ed853acdce9afe5b0f3886b1f",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "5690e9a46acee8e33b9e69cf7bd4808aa4f6188fa9a46fc24c48a9348691b777"
+    },
+    "V_2021": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "05936f1c42992923294209dce34996eab7cd7fb8037ecf58bbfa7969b0e843a6",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "dbd011a571788da0bb37c0ce13fbbec2bd9b7967c9e3eda67b59cd4f5e62a0d7"
+    },
+    "V_2022": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "4d947e2405228400839ea6f0eb084b9b1552eed5b07bef8d9c2fb926b8715d3e",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "cfc50635b0a4a2ae2872539aaf68a27523a389132c77771f5c493d7c39529bbd"
+    },
+    "V_2023": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "942d736770efa8b031385202e2cb137bd2b6f74bf37f86e88cd77d4106b15635",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "fca71c493a4610396143c195c8c54a0aae9c57c0accae05b701df7c40542760b"
+    },
+    "V_2024": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "10156cf10569e92de97f6d13b0b90ef628dc958ff869ba89f31174cff79d57bd",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "10dcd4c0cc161d5588b1171afdc9c0d47f860e7e9fb700f73e95e5fca08474a7"
+    },
+    "WFC_2015": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "4f2f3a63253ae42b037ea4345429da57355e96e834da652a8abac6b8ad3c0d12",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "a7508430284084e66b791288e056187af51293f461d7c657a0eaaef94e2738ae"
+    },
+    "WFC_2016": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "66461e1f418eb156f3b2076a12ac451a024a74e41134089f3423ae5d31e6309e",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "65951c222ad846b02d0b7b48d0ea4d8ff98d3b3a85821db94c1dd7eef9fcd7b9"
+    },
+    "WFC_2017": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "62b6c3d172913fdced8fdd46661ccf84a02905029ec42496fa165d691eb0daef",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "bcbb6249807015ae40f30a17cf696d190cfa939b6f9faefeb0e3f88854021b95"
+    },
+    "WFC_2018": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "b2d9d02b35b634669b294a40d37db8ed82ab2fd755dd442b49613ac1ba012b78",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "b1d84a50029344a7dc789378d3a95c60f37d2f3645c538748fd71901fee9453b"
+    },
+    "WFC_2019": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "58a235e3eb0acce424bda4c4b2b5bc180efb15b4e75ff470aff6eb2e42f737a3",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "d89ace2d123feaf886fdd7c91cc98f19646797a5418de92a90f4f15693372bc2"
+    },
+    "WFC_2020": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "fdfe4dd7d260816e39b5bb5d6318b740c786bcb531c48780ac15d0a6af02fa24",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "7396536c55096a5bda87b77252afb2b6ba084b75ffcf086fe6d2b51acbba2d29"
+    },
+    "WFC_2021": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "a911c7feb3c3e657f9efcc41fb011ae4cd487474bb65cbf6a23d592bd9440f7f",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "c82d55f2b74f6efebf11f60579696146362c765013d8600916761d89f44d13a4"
+    },
+    "WFC_2022": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "3bbe0b75ee619b09f9d47d0006058b52fa9343d60a54fef5b5d3cff228d5c7e3",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "f1c3e86422123de151088f2c278bc134a73523a4784b8eba68189cae1fdc9e70"
+    },
+    "WFC_2023": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "571bf549eaff0df2cdb53ba2903ae77c6a75d540d28c3da080f0689e3550cbdc",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "8bb4f2ea6c7caa22d3f32737bb96844904f79f692a0db66795b71ef43ce35c15"
+    },
+    "WFC_2024": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "daeeb3e4135e8b44862f8c548d33f04436c334bbb4e1803c19a4afc6854d7ba8",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "3f21327c444559c6f3c65d5f2bf4159a79c133de9080a835da337aeb97e24705"
+    },
+    "WMT_2015": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "1bccad9c3e3fe011498b10270744dad53e1ce42220b43f0fffca81f0933e99d8",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "9f517c4c6a35700cfd207a24424ad7e51f23e160cdca0fffa6d62ecedc36761d"
+    },
+    "WMT_2016": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "7b56bdf3cce19919deeded3126c07590836c0e5f9f6324e4f8468400a016ef00",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "8c8db241bc30e3f41449f41e327ba2bd6844d05078b1ad3055fe00db775fbac0"
+    },
+    "WMT_2017": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "04efa7292fc2161cecf8d2e324f72c7144ee3dd5995b01e3bed2505ea193051e",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "59b79d9b00af0f64a922e7f1687a376677443e39507c362ee93ba2819041a48d"
+    },
+    "WMT_2018": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "ec1c057448b62356779d196c9271014fc3d9ebd22a13386f9c9c9e76164f7cf6",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "8ecbc8dcd7a4071fd0b4fc9794c8c616a93bdb52afc57c2d4c643f2329d982e9"
+    },
+    "WMT_2019": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "2c4aadc24bdb2bab420d4e4c4798a79c58b7b002a00180b3fdef22a80d5bbc9d",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "7512d71602485ecaa9129f27c934648fc0369db7e7ef6408d70f13b4fc801265"
+    },
+    "WMT_2020": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "c9bdad30141a8429daaea0d1b9c84c68c79ba481fdf3b62db9706a1177f105f3",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "4ae31b64ee47f313bc3109295c56ccf4b4ce585fbaab8bc3760015e0c3f82746"
+    },
+    "WMT_2021": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "19a1fb192d8bdb5db9a4ba4a710eaaf683222a4369fc5e79608c1e750e203bbc",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "2c346f4da0f33fa4bf0da30cf990fd9c40ef375c87ff4b7cab727ba7aba567e6"
+    },
+    "WMT_2022": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "fd992a96465fb9176b457918c418e1cbdeed35ca959f74a82256b9b075fe6c38",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "e351b814779c71114ebc393401c5d806dad2415ef0eb80777dee750ae5386d41"
+    },
+    "WMT_2023": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "c547a782e6595ddb2db15444a3759fa1c647af019e637ae1d508a136f0d9099e",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "b3cfc5a5787bd82dcba2e43266f6196bb1803e8a07a50c59367b52b3f429b185"
+    },
+    "WMT_2024": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "f75845911b53941a08514d497533ff065ef608ba888c43f8826f0fc29898c41c",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "e4b23e839ea346b327e3b20fca3f75e03d76d991c8084741c98db11cd7ca3d4d"
+    },
+    "XOM_2015": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "37a14169cfeebb54d0725326d5e967d06806fdcda0e2c240451ce13538fa8804",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "b06af53ce590a7699c88560f3d814d09d21cc14411fd94ad465d8b5883ffe0b7"
+    },
+    "XOM_2016": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "06dc1d0ed085dbcc077a0bbe7afebd661e87f6998fbc792a01fa4febe549a73c",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "88fe59994082e23bb6271774a844c085853ab3dd064d03eb0c8a5d187b045ed6"
+    },
+    "XOM_2017": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "1420d5b92a3194e1a284418715bb201ce597445ec9f1d7420918b121b2fc9c25",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "10a941e8471d18d47d6d287e28cf1e9d72b964b02a6a8bd176fe54f7803f7b8c"
+    },
+    "XOM_2018": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "845ef61c0c5bb33a82f67e891709e66894086c389d4838679e4670ce138772cc",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "10aff86a800744996b62c0c95fb739152b46d02eb57188058de00d02b8d1a19f"
+    },
+    "XOM_2019": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "57a161b5f7155ce496cdb629ec0199729021bcf1b068c78650c95060f338082b",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "a3b5383b785baa7a12dd16b7abf1dd77627ab3ef1990087596e9a4803c0a8888"
+    },
+    "XOM_2020": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "c24857eac2113d7a5bfbda5bde6e81942a808857a2ecda304ff2489e5ecb497f",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "38fb9d34c56e41a8ff08e7f1f03c265ce0470bd46645f0e5928bf540a47d72ff"
+    },
+    "XOM_2021": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "5501fc41d27c3e8ba02a7c273df066bda23e17bec7c36cd07df5874c6bd489c2",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "c0abdddd54d87cb2a4077d34197897b1d3f1fa1db47eeb00ae9a44d4b9d7b11f"
+    },
+    "XOM_2022": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "bd9d65bdaff929bbfd048d98da2b60affcac0f47fc3539887f2798633a2b3135",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "cff7bf3caa1fe77af2c37809275f9b7a01f81c653c4015bd8321008e69d6c80e"
+    },
+    "XOM_2023": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "f98a577262aea31889c10d79eac8ceb75f722b3bb439538ca9092e8a945a3e83",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "b196959a8477f38949377350f4be11d42aa11ce0ae374cdf6d508e0905458f7a"
+    },
+    "XOM_2024": {
+      "extraction_path": "path_b_orchestrator_inline_llm_judgement",
+      "generated_timestamp_iso": "2026-05-01T14:07:30.173421Z",
+      "model_snapshot": "claude-sonnet-4-6",
+      "prompt_sha256": "9184be17983cc32dd6064d19be0487829f43a6ffe18258f32af09faa6d780f27",
+      "prompt_version": "1.0.0",
+      "response_sha256": "96002d787a0c2bacf1e55b79b3d990eccd262d2288afb048f6f06cd33d55ccd7",
+      "schema_version": "v2-slim",
+      "source_text_sha256": "297030430484d8adc325335c1c8f7b21e20a23618fa2a9da25e1fa6cdbc4b8b5"
+    }
+  }
+}

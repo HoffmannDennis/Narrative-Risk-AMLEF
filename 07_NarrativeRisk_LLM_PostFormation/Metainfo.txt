@@ -1,0 +1,19 @@
+Name of Quantlet: 07_NarrativeRisk_LLM_PostFormation
+
+Published in: 'AMLEF Applied Machine Learning in Empirical Finance'
+
+Description: 'Same tercile spread as quantlet 01 (01_NarrativeRisk_LLM_DisclosureScoring) but inserts a one-month skip between portfolio formation and the first holding-period return. Tests sensitivity of the headline alpha to short-horizon market microstructure (rebalancing frictions, post-earnings drift, January seasonality). Indicative not inferential.'
+
+Keywords: educational, llm, risk-disclosure, post-formation-skip, market-microstructure, tercile-sort, ff5, alpha, empirical-finance, demonstration
+
+Author: Dennis Hoffmann
+
+Submitted: '02 May 2026'
+
+See also: '01_NarrativeRisk_LLM_DisclosureScoring'
+
+Datafile: corpus.ndjson.gz, provenance.json, prices.csv, ff_factors.csv, extraction_prompt.md
+
+Input: 'frozen LLM-extracted risk severities (corpus.ndjson.gz) + monthly prices + FF5+UMD factors'
+
+Output: 'postformation_spread_summary.csv (1 row x 7 cols), postformation_spread.pdf (one figure), 07_NarrativeRisk_LLM_PostFormation.ipynb (executable walkthrough)'

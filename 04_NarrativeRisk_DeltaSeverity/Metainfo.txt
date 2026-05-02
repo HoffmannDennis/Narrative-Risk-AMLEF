@@ -1,0 +1,19 @@
+Name of Quantlet: 04_NarrativeRisk_DeltaSeverity
+
+Published in: 'AMLEF Applied Machine Learning in Empirical Finance'
+
+Description: 'Demonstration of year-over-year change (first difference) in LLM-based annual-report risk-disclosure severities as a cross-sectional sorting signal, with FF5+UMD risk-adjusted alpha; not intended as evidence. Same top-30 S&P 500 universe, fiscal years 2015-2024, 10 hand-listed risk themes, severity 0-5 as quantlet 01; tercile-sort spread on delta-severity instead of level.'
+
+Keywords: educational, llm, risk-disclosure, annual-report, change-signal, first-difference, tercile-sort, fama-french, ff5, alpha, factor-model, notebook, empirical-finance, demonstration
+
+Author: Dennis Hoffmann
+
+Submitted: '02 May 2026'
+
+See also: '01_NarrativeRisk_LLM_DisclosureScoring'
+
+Datafile: corpus.ndjson.gz, provenance.json, prices.csv, ff_factors.csv, extraction_prompt.md
+
+Input: 'frozen LLM-extracted risk severities (corpus.ndjson.gz) + monthly prices + FF5+UMD factors'
+
+Output: 'delta_severity_summary.csv (1 row x 7 cols), delta_severity_spread.pdf (one figure), 04_NarrativeRisk_DeltaSeverity.ipynb (executable walkthrough)'

@@ -1,0 +1,19 @@
+Name of Quantlet: 08_NarrativeRisk_LLM_IndustryNeutral
+
+Published in: 'AMLEF Applied Machine Learning in Empirical Finance'
+
+Description: 'Demonstration of industry-neutral LLM-based risk-disclosure scoring with within-sector demean before tercile sort, FF5+UMD risk-adjusted alpha; not intended as evidence. Same composite signal as quantlet 01 but orthogonalised against sector-level mean severity (GICS sector mapping, top-30 S&P 500 large-caps, fiscal years 2015-2024, 10 risk themes, severity 0-5) before cross-sectional sort.'
+
+Keywords: educational, llm, risk-disclosure, industry-neutral, sector-demean, tercile-sort, ff5, alpha, empirical-finance, demonstration
+
+Author: Dennis Hoffmann
+
+Submitted: '02 May 2026'
+
+See also: '01_NarrativeRisk_LLM_DisclosureScoring'
+
+Datafile: corpus.ndjson.gz, prices.csv, ff_factors.csv, firm_list.csv, extraction_prompt.md
+
+Input: 'frozen LLM-extracted risk severities (corpus.ndjson.gz) + monthly prices + FF5+UMD factors + GICS sector mapping (firm_list.csv)'
+
+Output: 'industry_neutral_summary.csv (1 row x 7 cols), industry_neutral_spread.pdf (one figure), 08_NarrativeRisk_LLM_IndustryNeutral.ipynb (executable walkthrough)'

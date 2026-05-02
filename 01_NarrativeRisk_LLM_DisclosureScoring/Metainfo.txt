@@ -1,0 +1,19 @@
+Name of Quantlet: 01_NarrativeRisk_LLM_DisclosureScoring
+
+Published in: 'AMLEF Applied Machine Learning in Empirical Finance'
+
+Description: 'Demonstration of LLM-based annual-report risk-disclosure scoring with FF5+UMD risk-adjusted alpha; not intended as evidence. Top-30 S&P 500 constituents by market cap (snapshot 2014-12-31), fiscal years 2015-2024, 10 hand-listed risk themes, severity 0-5; tercile-sort spread + OLS alpha walkthrough.'
+
+Keywords: educational, llm, risk-disclosure, annual-report, tercile-sort, fama-french, ff5, alpha, factor-model, notebook, empirical-finance, demonstration
+
+Author: Dennis Hoffmann
+
+Submitted: '02 May 2026'
+
+See also: '02_NarrativeRisk_LM_DisclosureScoring, 03_NarrativeRisk_LLM_DecileSort, 04_NarrativeRisk_DeltaSeverity, 05_NarrativeRisk_FF3_FF5_Comparison, 06_NarrativeRisk_LLM_SeverityDistribution, 07_NarrativeRisk_LLM_PostFormation, 08_NarrativeRisk_LLM_IndustryNeutral, 09_NarrativeRisk_LLM_RollingBeta, 10_NarrativeRisk_LLM_LongOnly'
+
+Datafile: corpus.ndjson.gz, provenance.json, prices.csv, ff_factors.csv, extraction_prompt.md
+
+Input: 'frozen LLM-extracted risk severities (corpus.ndjson.gz) + monthly prices + FF5+UMD factors'
+
+Output: 'tercile_spread_summary.csv (1 row x 7 cols), tercile_spread.pdf (one figure), 01_NarrativeRisk_LLM_DisclosureScoring.ipynb (executable walkthrough)'
